@@ -1,6 +1,9 @@
 // package Pre_java;
 
 public class Type_Conversion {
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 	
 		// Their are two types of type conversion in java
@@ -161,6 +164,7 @@ public class Type_Conversion {
 		
 		System.out.println("Long Value:-"+l5);
 		System.out.println("Float Value:-"+f5);
+       //  System.out.println("              ");
 		System.out.println("*/*//*//*/*/*//**");
 		System.out.println("                  ");
 		
@@ -191,6 +195,9 @@ public class Type_Conversion {
 		double d7 = 10.5;
 		double d8 = 3.2;
 		
+        System.out.println("Double Value D7:-"+d7);
+        System.out.println("Double Value D8:-"+d8);
+
 		double res2 = 10.5 * 3.2;
 		int i13 = (int)res2;
 		System.out.println("Double result:"+res2);

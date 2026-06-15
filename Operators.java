@@ -281,6 +281,55 @@ public class Operators {
         System.out.println(!(s1 == s2));
         System.out.println(!(s1 != s2));
 
+    System.out.println("End of Logical Operator");
 
+
+    // Assignment Operators 
+    //  +=, -=,*=,/=,%=
+
+    int b1 = 10;
+    int b2 = 5;
+    
+    b1 += b2;     // b1 = 10 + 5 = 15     // Now B1 value become 15
+    System.out.println("Value Of b1 after +=: "+b1);
+
+    b1 -= b2;     // b1 = 15 - 5 = 10    now B1 value become 10 Again
+    System.out.println("Value of b1 after -=: "+b1);
+
+    b1 *= b2;       // b1 = 10 * 5 = 50  Now b1 value become 50 Again 
+    System.out.println("Value of b1 after *=: "+b1);
+
+    b1 /= b2;       // b1 = 50 / 5 = 10 now b1 value become 10
+    System.out.println("Value of b1 after /=: "+b1);
+
+    b1 %= b2;       // b1 = 10 % 5 = 0  Now b1 value become 0 
+    System.out.println("Value of b1 after %=: "+b1);
+
+    System.out.println("End Of Assignment Operator");
+
+
+
+
+
+    // Unary Operators
+
+    int R = 8;
+    int S = 10;
+
+    System.out.println("Pre-increment: " + (++R));         // R becomes 9, prints 9
+    System.out.println("Post-increment:" + (R++));         // prints 9, then R becomes 10
+
+    System.out.println("Pre-decrement:" + (--R));          // R becomes 9, prints 9
+    System.out.println("Post-decrement:" + (R--));         // prints 9, then R becomes 8
+
+    System.out.println("--------------------");
+
+    System.out.println("Pre-increment: " + (++S));       // S becomes 11, prints 11
+    System.out.println("Post-increment:" + (S++));       // prints 11, then S becomes 12
+
+    System.out.println("Pre-decrement:" + (--S));        // S becomes 11, prints 11
+    System.out.println("Post-decrement:" + (S--));       // prints 11, then S becomes 10
+
+    sc.close();
     }
 }

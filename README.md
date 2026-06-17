@@ -17,6 +17,47 @@ No guarantees though. 😅
 - 🛠️ Mini Projects → Small projects built using Java 
   because theory alone won't get me a job 😂
 
+  ## 📊 Progress Tracker
+### Season 1: Basics
+- [x] Introduction to Programming Language
+- [x] History of Java
+- [x] JDK, JRE, JVM, JIT Compiler
+- [x] Structure of Java Program
+- [x] CMD
+- [x] Token
+- [x] Datatype and Variable
+- [x] Operators
+- [x] Typecasting
+- [x] Dynamic Read (Scanner Class)
+- [x] Decision Making Statement
+- [ ] Looping Statement
+- [ ] Number Programs
+- [ ] Method
+
+### Season 2: OOPs
+- [ ] Static & Static Members
+- [ ] Class Loading Process
+- [ ] Object & Non Static Members
+- [ ] Object Loading Process
+- [ ] Constructor & Constructor Overloading
+- [ ] Encapsulation
+- [ ] Inheritance
+- [ ] Polymorphism
+- [ ] Abstraction
+- [ ] Interface
+
+### Season 3: Implementation
+- [ ] Array
+- [ ] Object Class
+- [ ] String
+- [ ] Wrapper Class
+- [ ] Exception & Exception Handling
+
+### Advance Topics
+- [ ] Collections
+- [ ] Multithreading
+- [ ] File Handling
+
 ## 💡 Why did I make this?
 Because my sir said "practice daily" and I said "yes sir" 
 and then slept for 2 days. 😅

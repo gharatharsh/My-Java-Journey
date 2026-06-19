@@ -30,8 +30,8 @@ No guarantees though. 😅
 - [x] Typecasting
 - [x] Dynamic Read (Scanner Class)
 - [x] Decision Making Statement
-- [ ] Looping Statement
-- [ ] Number Programs
+- [x] Looping Statement
+- [x] Number Programs
 - [ ] Method
 
 ### Season 2: OOPs

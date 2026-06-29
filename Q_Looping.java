@@ -65,6 +65,7 @@ public class Q_Looping {
     // Medium:
 
     // Q6. Take a number from user, find its factorial using for loop.
+    
         System.out.println("Enter the Number to find Factorical:");
 
         int fact = 1;  // result starts at 1
@@ -103,19 +104,44 @@ public class Q_Looping {
 
 // Q9. Take a number from user, check if it's a palindrome. (Ex: 121, 1331)
 
-    System.out.println("Enter the Number to check is Pelindrome or Not: ");
+   System.out.println("Enter the Number: ");
     int p = sc.nextInt();
+    int original = p;  
+    int reverse2 = 0;
 
+    while(p != 0){
+    reverse2 = (reverse2 * 10) + (p % 10);
+    p = p / 10;
+    }
+
+    if(original == reverse2){
+        System.out.println("Palindrome!");
+    } else {
+        System.out.println("Not Palindrome!");
+    }
+    System.out.println("------------------------");
+
+// Q10. Print Fibonacci series up to n terms using for loop. (0,1,1,2,3,5,8...)
+
+    System.out.print("Enter number of terms: ");
+        int n = sc.nextInt();
+
+        int s = 0, t = 1;
+
+        for (int k = 1; k <= n; k++) {
+            System.out.print(s + " ");
+
+            int fabo = s + t;
+            s = t;  
+            t = fabo;
+        }
     
-
     }
     
 }
 
 
 // Medium:
-// Q9. Take a number from user, check if it's a palindrome. (Ex: 121, 1331)
-// Q10. Print Fibonacci series up to n terms using for loop. (0,1,1,2,3,5,8...)
 // Q11. Take a number from user, find sum of its digits. (Ex: 123 → 6)
 // Q12. Print this pattern using for loop:
 // *
